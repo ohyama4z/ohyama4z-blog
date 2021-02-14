@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/ohyama4z/.vscode-server/bin/622cb03f7e070a9670c94bae1a45d78d7181fbd4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Oculus/Support/oculus-runtime:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/ohyama/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/ohyama/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/ohyama/AppData/Local/Microsoft/WindowsApps:/mnt/f/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/ohyama/AppData/Roaming/npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.15.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "name": "ohyama4z-blog",
+    "version": "0.0.1",
+    "description": "ohyama4zのブログです",
+    "main": "index.js",
+    "authors": {
+      "name": "ohyama4z",
+      "email": "ohyama4z000@gmail.com"
+    },
+    "repository": "ohyama4z-blog/ohyama4z-blog",
+    "scripts": {
+      "dev": "vuepress dev blog",
+      "build": "vuepress build blog"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "vuepress": "^1.3.1",
+      "@vuepress/theme-blog": "^2.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,23 @@
+{
+  "name": "ohyama4z-blog",
+  "version": "0.0.1",
+  "description": "ohyama4zのブログです",
+  "main": "index.js",
+  "authors": {
+    "name": "ohyama4z",
+    "email": "ohyama4z000@gmail.com"
+  },
+  "repository": "ohyama4z-blog/ohyama4z-blog",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.1.0",
+    "vuepress": "^1.8.1"
+  },
+  "dependencies": {
+    "vuepress-theme-meteorlxy": "^1.9.0"
+  }
+}
