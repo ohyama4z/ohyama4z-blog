@@ -105,6 +105,8 @@ module.exports = {
       perPage: 5,
     },
 
+    comments: false,
+
     // the content of navbar links
     nav: [
       { text: "Home", link: "/", exact: true },
