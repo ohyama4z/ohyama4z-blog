@@ -10,7 +10,8 @@
   "repository": "ohyama4z-blog/ohyama4z-blog",
   "scripts": {
     "dev": "vuepress dev blog",
-    "build": "vuepress build blog"
+    "build": "vuepress build blog",
+    "eject": "vuepress eject blog"
   },
   "license": "MIT",
   "devDependencies": {
@@ -18,6 +19,7 @@
     "vuepress": "^1.8.1"
   },
   "dependencies": {
+    "@vuepress/cli": "^2.0.0-alpha.8",
     "vuepress-theme-meteorlxy": "^1.9.0"
   }
 }
