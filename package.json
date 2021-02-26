@@ -20,6 +20,8 @@
   },
   "dependencies": {
     "@vuepress/cli": "^2.0.0-alpha.8",
+    "markdown-it": "^12.0.4",
+    "markdown-it-footnote": "^3.0.2",
     "vuepress-theme-meteorlxy": "^1.9.0"
   }
 }

@@ -31,6 +31,9 @@ module.exports = {
   markdown: {
     lineNumbers: true,
     linkfy: true,
+    extendMarkdown: (md) => {
+      md.use(require("markdown-it-footnote"));
+    },
   },
 
   // theme to use
