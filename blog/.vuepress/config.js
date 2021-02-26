@@ -34,7 +34,7 @@ module.exports = {
   },
 
   // theme to use
-  theme: "meteorlxy", // OR shortcut: @vuepress/blog
+  //theme: "meteorlxy", // OR shortcut: @vuepress/blog
 
   themeConfig: {
     // language of this theme
