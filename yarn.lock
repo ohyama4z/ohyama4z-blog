@@ -8545,6 +8545,11 @@ vuepress-plugin-redirect@^1.2.3:
     "@shigma/stringify-object" "^3.3.0"
     vuepress-plugin-dehydrate "1.1.5"
 
+vuepress-plugin-seo@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-seo/-/vuepress-plugin-seo-0.1.4.tgz#be8e5577491c1fc317a7ad4abe3ae51ff317be1e"
+  integrity sha512-foNKrAAKihiC47bx0UXFzs/+BIFmnowTQsLVF/8pfsnsPDp8FXjkTGyjxyjOhbwj7ADPv32CdX3pEoYGnZ7OjA==
+
 vuepress-plugin-serve@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-serve/-/vuepress-plugin-serve-2.0.4.tgz#d44f5e68810bba4129f6d0d38d483b761655496e"

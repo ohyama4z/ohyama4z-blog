@@ -16,7 +16,8 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/theme-blog": "^2.1.0",
-    "vuepress": "^1.8.1"
+    "vuepress": "^1.8.1",
+    "vuepress-plugin-seo": "^0.1.4"
   },
   "dependencies": {
     "@vuepress/cli": "^2.0.0-alpha.8",

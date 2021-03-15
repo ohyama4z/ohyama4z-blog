@@ -116,4 +116,15 @@ module.exports = {
       { text: "Posts", link: "/posts/", exact: false },
     ],
   },
+  plugins: {
+    seo: {
+      description: ($page, $site) =>
+        $page.frontmatter.description ||
+        ($page.excerpt &&
+          $page.excerpt.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, "")) ||
+        $site.description ||
+        "",
+      title: ($page, $site) => $page.title || $site.title,
+    },
+  },
 };
