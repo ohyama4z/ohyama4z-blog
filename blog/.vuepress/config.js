@@ -130,7 +130,8 @@ module.exports = {
       image: ($page, $site) =>
         ($page.frontmatter.image &&
           ($site.themeConfig.domain || "") + $page.frontmatter.image) ||
-        "/img/myicon_2.jpg" + encodeURIComponent($page.title || $site.title),
+        "http://placehold.jp/40/ffffff/ffffff/600x315.png?css=%7B%22background-image%22%3A%22url(http%3A%2F%2Fplacehold.jp%2Fbc544b%2F420c09%2F130x30.png%3Ftext%3Dohyama4z-blog)%22%2C%22padding-left%22%3A%2280px%22%2C%22padding-right%22%3A%2280px%22%7D&text=" +
+          encodeURIComponent($page.title || $site.title),
     },
   },
 }
