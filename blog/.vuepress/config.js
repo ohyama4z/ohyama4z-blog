@@ -51,7 +51,7 @@ module.exports = {
 
       location: "苫小牧高専🏫",
 
-      avatar: "/img/myicon.jpg",
+      avatar: "/img/myicon_2.jpg",
 
       sns: {
         // github account and link
@@ -130,8 +130,7 @@ module.exports = {
       image: ($page, $site) =>
         ($page.frontmatter.image &&
           ($site.themeConfig.domain || "") + $page.frontmatter.image) ||
-        'https://placehold.jp/40//fff/600x315.png?css=%7B"padding"%3A"%200%2080px"%2C"background-image"%3A"%20url(https%3A%2F%2Fplacehold.jp%2F057%2F333%2F130x40.png%3Ftext%3Ddorasu-tech)"%7D&text=' +
-          encodeURIComponent($page.title || $site.title),
+        "/img/myicon_2.jpg" + encodeURIComponent($page.title || $site.title),
     },
   },
 }
