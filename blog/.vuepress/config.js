@@ -32,7 +32,7 @@ module.exports = {
     lineNumbers: true,
     linkfy: true,
     extendMarkdown: (md) => {
-      md.use(require("markdown-it-footnote"));
+      md.use(require("markdown-it-footnote"))
     },
   },
 
@@ -66,6 +66,8 @@ module.exports = {
           link: "https://twitter.com/ohyama4z",
         },
       },
+
+      domain: "https://ohyama4z-blog.netlify.com",
     },
 
     // header config
@@ -125,6 +127,11 @@ module.exports = {
         $site.description ||
         "",
       title: ($page, $site) => $page.title || $site.title,
+      image: ($page, $site) =>
+        ($page.frontmatter.image &&
+          ($site.themeConfig.domain || "") + $page.frontmatter.image) ||
+        'https://placehold.jp/40//fff/600x315.png?css=%7B"padding"%3A"%200%2080px"%2C"background-image"%3A"%20url(https%3A%2F%2Fplacehold.jp%2F057%2F333%2F130x40.png%3Ftext%3Ddorasu-tech)"%7D&text=' +
+          encodeURIComponent($page.title || $site.title),
     },
   },
-};
+}
